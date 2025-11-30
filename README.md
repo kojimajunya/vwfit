@@ -1,5 +1,7 @@
 # VWFit
 
+![VWFit browser extension logo](./logo.png)
+
 VWFit is a Chrome extension for web developers. With a single click, it resizes the browser so that the viewport matches a preset width.
 
 ## Features
