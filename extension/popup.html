@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>VWFit</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <main>
+      <div class="field">
+        <label for="vwfit-width">Viewport width (px)</label>
+        <input id="vwfit-width" type="number" min="200" step="1" value="1440" />
+      </div>
+
+      <div class="field">
+        <label>
+          <input id="vwfit-include-scrollbar" type="checkbox" checked />
+          Include scrollbar in target width
+        </label>
+      </div>
+
+      <button id="vwfit-resize-btn" type="button">
+        <span>Resize!</span>
+      </button>
+    </main>
+
+    <script type="module" src="./dist/popup.js"></script>
+  </body>
+</html>

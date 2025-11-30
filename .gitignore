@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+.DS_Store
+extension.zip
+extension/dist

@@ -1,0 +1,21 @@
+{
+  "name": "vwfit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json --watch",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "check": "biome check .",
+    "zip": "cross-zip extension extension.zip"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@types/chrome": "0.1.31",
+    "cross-zip-cli": "^1.0.0",
+    "prettier": "^3.7.2",
+    "typescript": "^5.0.0"
+  }
+}
