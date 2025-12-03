@@ -20,6 +20,6 @@
     "service_worker": "dist/background.js",
     "type": "module"
   },
-  "permissions": ["tabs", "windows", "scripting", "storage", "system.display"],
+  "permissions": ["scripting", "storage", "system.display"],
   "host_permissions": ["http://*/*", "https://*/*"]
 }
